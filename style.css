@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+h2 {
+  color: #333;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4cae4c;
+}
+
+/* General Body Styling */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #fde8f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Form Container */
+form {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px 30px;
+  max-width: 500px;
+  width: 100%;
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  color: #d96482;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+/* Label Styling */
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+  color: #a6446c;
+}
+
+/* Input Fields Styling */
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #e4a1c0;
+  border-radius: 5px;
+  font-size: 1em;
+  background-color: #fdf3f8;
+  color: #333;
+}
+
+/* Input Focus Effect */
+input:focus,
+textarea:focus {
+  border-color: #d96482;
+  outline: none;
+  background-color: #fff0f4;
+  box-shadow: 0 0 5px rgba(217, 100, 130, 0.5);
+}
+
+/* Submit Button */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #d96482;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Button Hover Effect */
+button:hover {
+  background-color: #a6446c;
+}
+
+/* Table Styling for Result Page */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table,
+th,
+td {
+  border: 1px solid #e4a1c0;
+  text-align: left;
+}
+
+th {
+  background-color: #f8d1e2;
+  padding: 10px;
+  color: #a6446c;
+  font-weight: bold;
+}
+
+td {
+  padding: 10px;
+  background-color: #fdf3f8;
+}
